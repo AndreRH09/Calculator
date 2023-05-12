@@ -11,6 +11,10 @@ public class HolaMundo{
     public static int sub(Integer a,Integer b){
          int sub = a - b;
 	 return sub;
-    } 
+    }
+   public static mult(Integer a,Integer b){
+        int mult = a * b;
+	return mult;
+   } 
 
 }
