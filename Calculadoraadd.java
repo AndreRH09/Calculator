@@ -8,6 +8,9 @@ public class HolaMundo{
         int suma = a + b;
 	return suma;
     }
-    public static int 
+    public static int sub(Integer a,Integer b){
+         int sub = a - b;
+	 return sub;
+    } 
 
 }
