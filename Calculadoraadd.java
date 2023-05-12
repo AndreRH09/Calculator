@@ -17,7 +17,12 @@ public class HolaMundo{
 	return mult;
    } 
    public static int div(Integer a,Integer b){
-        int div = a/b;   
+        int div = a/b;
+        return div;	
+   }
+   public static void mod(Integer a,Integer b){
+        int mod = a % b;
+        return mod;
    }
 
 }
