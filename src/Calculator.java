@@ -5,7 +5,7 @@ public class Calculator {
 
     public void interfacealculator() {
         int opcion = 1;
-        while (1 <= opcion && opcion <= 6) {
+        while (1 <= opcion && opcion <= 5) {
             System.out.println("---------------------------\n\tCalculadora\n---------------------------");
             System.out.println("Ingrese su opción ");
 
@@ -20,14 +20,21 @@ public class Calculator {
             opcion = sc.nextInt();
             SeleccionarOpciones(opcion);
         }
-        System.out.println("se ha terminado el programa");
     }
 
     public void SeleccionarOpciones(int opciones) {
-        // switch (opciones) {
-        // case 1:
-        // add();
-        // break;
+        int num1 = 0, num2 = 0, result;
+
+        if(opciones >=1 && opciones <= 5){
+            num1 = obtenerNum("primer");
+            num2 = obtenerNum("segundo");        
+        }
+        
+        switch (opciones) {
+            case 1:
+            result = add(num1, num2);
+            System.out.println("El resulatado de la sumas es "+result);
+            break;
         // case 2:
         // sub();
         // break;
@@ -40,14 +47,20 @@ public class Calculator {
         // case 5:
         // mod();
         // break;
-        // default:
-        // break;
-        // }
+            default:
+            System.out.println("Gracias por usar el programa");
+            break;
+        }
+        
     }
 
-    public int obtenerNum() {
-        System.out.print("Ingrese su numero: ");
+    public int obtenerNum(String a) {
+        System.out.print("Ingrese su "+a+" numero: ");
         int val = sc.nextInt();
         return val;
+    }
+
+    public int add(int num1, int num2){
+        return num1+num2;
     }
 }
