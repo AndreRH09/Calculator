@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div>
 <table width="1000px">
     <theader>
@@ -284,3 +285,6 @@ Los estándares de codificación son un conjunto de reglas y pautas que se estab
 - https://guides.github.com/
 - https://www.w3schools.com/java/default.asp
 - https://open-bootcamp.com/
+=======
+# Calculator
+>>>>>>> 3267531df9d166635b89246799f2b9b5bc3db5ae
