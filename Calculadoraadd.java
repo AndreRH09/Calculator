@@ -1,28 +1,27 @@
-public class HolaMundo{
-    public static void main(String args[]) {
-    
-        System.out.println ("¡Hola mundo!");
-
-    }
-    public static int add(Integer a, Integer b){
+public class Calculadora{
+     // Este metodo me servira para sumar
+    public static int add(int a, int b){
         int suma = a + b;
 	return suma;
     }
-    public static int sub(Integer a,Integer b){
-         int sub = a - b;
+     // Este metodo me servira para restar
+    public static int sub(int a,int b){
+         int sub = a - b; - 
 	 return sub;
     }
-   public static int mult(Integer a,Integer b){
+    // Este metodo me servira para multiplicar
+   public static int mult(int a,int b){
         int mult = a * b;
 	return mult;
-   } 
-   public static int div(Integer a,Integer b){
+   }
+     // Este metodo me servira para dividir 
+   public static int div(int a,int b){
         int div = a/b;
         return div;	
    }
-   public static void mod(Integer a,Integer b){
+   // Este metodo me servira para hallar el modulo
+   public static void mod(int a,int b){
         int mod = a % b;
         return mod;
    }
-
 }
