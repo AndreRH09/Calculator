@@ -232,17 +232,17 @@
 ![Configuración con de cuenta](images/StudentAcount.png)  
 - Cree un nuevo proyecto personal y desarrolle el ejercicio resuelto en clase. Haga 3 commits como mínimo y muéstrelos. Commit para "¡Hola mundo!", otro para "Bienvenida al curso" y otro para imprimir su nombre.
   
-  -Repositorio de Github (nombre): url github
+  -Repositorio de Github (Andre Renzo Añazco Huamanquispe): https://github.com/AndreRH09/EjerciciosPropuestos.git
   - commits realizados:  
-  ![commits](url)
+  ![commits](images/commitsAndre.jpg)
   
-  -Repositorio de Github (nombre): url github
+  -Repositorio de Github (Melsy Melany Huamaní Vargas): https://github.com/mhuamanivar/PW2-Individual-Lab01.git
   - commits realizados:  
-  ![commits](url)
+  ![commits](images/commitsMelsy.jpg)
   
   -Repositorio de Github (Jhamil Yeyder turpo Añasco): https://github.com/YeyderJHJL/Laboratorio-PWEB2.git
   - commits realizados:  
-  ![commits](images/commitsJH.png)
+  ![commits](images/commitsJhamil.png)
   
   -Repositorio de Github (nombre): url github
   - commits realizados:  
