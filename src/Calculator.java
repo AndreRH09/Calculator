@@ -24,6 +24,7 @@ public class Calculator {
 
     public void SeleccionarOpciones(int opciones) {
         int num1 = 0, num2 = 0, result;
+        double result2;
 
         if(opciones >=1 && opciones <= 5){
             num1 = obtenerNum("primer");
@@ -42,9 +43,12 @@ public class Calculator {
         // case 3:
         // mul();
         // break;
-        // case 4:
-        // div();
-        // break;
+            case 4:
+            result2 = div(num1, num2);
+            if(result2 != 0){
+                System.out.println("El resulatado de la división es "+result2);
+            }
+            break;
         // case 5:
         // mod();
         // break;
@@ -67,5 +71,12 @@ public class Calculator {
 
     public int sub(int num1, int num2){
         return num1 - num2;
+    }
+    public double div(int num1, int num2){
+        if(num2 != 0){
+            return num1*1.0/num2;
+        }
+        System.out.println("No se puede dividir entre 0");
+        return 0;
     }
 }
