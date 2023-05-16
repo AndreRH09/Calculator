@@ -1,3 +1,4 @@
+// Estos son los metodos Para la calculadora
 public class Calculadora{
      // Este metodo me servira para sumar
     public static int add(int a, int b){
