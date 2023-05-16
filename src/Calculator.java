@@ -34,29 +34,33 @@ public class Calculator {
         switch (opciones) {
             case 1:
             result = add(num1, num2);
-            System.out.println("El resulatado de la sumas es "+result);
+            System.out.println("La suma es "+result);
             break;
 
             case 2:
             result = sub(num1, num2);
-            System.out.println("El resulatado de la resta es "+result);
+            System.out.println("La resta es "+result);
             break;
 
             case 3:
             result = mult(num1, num2);
-            System.out.println("El resulatado de la multiplicación es "+result);
+            System.out.println("La multiplicación es "+result);
             break;
 
             case 4:
             result2 = div(num1, num2);
             if(result2 != 0){
-                System.out.println("El resulatado de la división es "+result2);
+                System.out.println("La división es "+result2);
             }
             break;
-            
-        // case 5:
-        // mod();
-        // break;
+
+            case 5:
+            result = mod(num1, num2);
+            if(result != -1){
+                System.out.println("El módulo es "+result);
+            }
+            break;
+
             default:
             System.out.println("Gracias por usar el programa");
             break;
@@ -88,5 +92,13 @@ public class Calculator {
         }
         System.out.println("No se puede dividir entre 0");
         return 0;
+    }
+
+    public int mod(int num1, int num2){
+        if(num2 != 0){
+            return num1%num2;
+        }
+        System.out.println("No se puede dividir entre 0");
+        return -1;
     }
 }
