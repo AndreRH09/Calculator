@@ -39,9 +39,10 @@ public class Calculator {
             result = sub(num1, num2);
             System.out.println("El resulatado de la resta es "+result);
             break;
-        // case 3:
-        // mul();
-        // break;
+            case 3:
+            result = mult(num1, num2);
+            System.out.println("El resulatado de la multiplicación es "+result);
+            break;
         // case 4:
         // div();
         // break;
@@ -67,5 +68,9 @@ public class Calculator {
 
     public int sub(int num1, int num2){
         return num1 - num2;
+    }
+
+    public int mult(int num1, int num2){
+        return num1*num2;
     }
 }
