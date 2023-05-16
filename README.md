@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <div>
 <table width="1000px">
     <theader>
