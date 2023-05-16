@@ -247,7 +247,7 @@
   
   -Repositorio de Github (Frank's Javier Vilca Quispe): https://github.com/fvilcaqui/Proyecto.git
   - commits realizados:  
-  ![commits](images/commitsJavier.png)
+  ![commits](images/commitsFrank.jpg)
 
   - Hola mundo en editor vim:  
   ![Hola Mundo](images/HolaMundo.png)
