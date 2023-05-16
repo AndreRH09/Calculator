@@ -36,10 +36,10 @@
             <tr>
               <td colspan="4">NOMBRE:
                 <ul>
-            	    <li>Nombre</li>
-            	    <li>Nombre</li>
-            	    <li>Nombre</li>
-            	    <li>Nombre</li>
+            	    <li>Añazco Huamanquispe, Andre Renzo</li>
+            	    <li>Huamaní Vargas, Melsy Melany</li>
+            	    <li>Turpo Añasco, Jhamil Yeyder</li>
+            	    <li>Vilca Quispe, Frank's Javier</li>
                 </ul>
               </td>
               <td>NOTA:</td><td></td>
@@ -244,9 +244,9 @@
   - commits realizados:  
   ![commits](images/commitsJhamil.png)
   
-  -Repositorio de Github (nombre): url github
+  -Repositorio de Github (Frank's Javier Vilca Quispe): https://github.com/fvilcaqui/Proyecto.git
   - commits realizados:  
-  ![commits](url)
+  ![commits](images/commitsJavier.png)
 
   - Hola mundo en editor vim:  
   ![Hola Mundo](images/HolaMundo.png)
