@@ -264,7 +264,8 @@
     - 4to commit - Uniendo rama "ramma-mul" al "main" para obtener metodo mul().
     - 5to commit - Uniendo rama "ramma-div" al "main" para obtener metodo div().
     - 6to commit - Uniendo rama "ramma-mod" al "main" para obtener metodo mod().
-
+- Evidencia del trabajo realizado<br> Se muestran los commits con las ramas, implementando cada operacion requerida en la clase calculadora<br>
+![Imprimir nombre](images/commitsRamas.jpg) 
 #
 
 ## CUESTIONARIO
